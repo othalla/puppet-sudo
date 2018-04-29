@@ -1,0 +1,15 @@
+{
+  "name": "puppet-sudo",
+  "version": "0.1.0",
+  "author": "fchardin",
+  "summary": "Module to install and configure sudo",
+  "license": "Apache-2.0",
+  "source": "https://github.com/othalla/puppet-sudo.git",
+  "project_page": "https://github.com/othalla/puppet-sudo",
+  "issues_url": "https://github.com/othalla/puppet-sudo/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
