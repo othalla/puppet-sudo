@@ -42,8 +42,9 @@
 #
 # Copyright 2018 Your name here, unless otherwise noted.
 #
-class sudo {
+class sudo::install {
 
-  include ::sudo::install
-
+  package { 'sudo':
+    ensure => present,
+  }
 }
